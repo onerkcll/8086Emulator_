@@ -8,7 +8,7 @@ Please always get update from development before you start to new card
 
 
 TL:DR;
-just push your branch and let me now, my thanks.
+just push your branch and let me know, my thanks.
 
 -MOK
 
