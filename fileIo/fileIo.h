@@ -5,11 +5,11 @@
 #ifndef INC_8086EMULATOR__FILEIO_H
 #define INC_8086EMULATOR__FILEIO_H
 
-#include "iostream"
 #include "fstream"
 #include "list"
 #include "algorithm"
 #include "string"
+#include "../lexicalAnalysis/lexicalAnalysisParser.h"
 using namespace std;
 
 class FileIo {
@@ -17,7 +17,7 @@ public:
     explicit FileIo(string fileName);
 
     list<string> getLineFromFile();
-
+    friend class LexicalAnalysis;
 private:
     string filePath;
 
