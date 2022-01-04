@@ -4,14 +4,14 @@
 
 #ifndef INC_8086EMULATOR__MAIN_CPU_H
 #define INC_8086EMULATOR__MAIN_CPU_H
-#include "list"
+#include <list>
 #include "string"
 #include "../lexicalAnalysis/lexicalAnalysisParser.h"
 #include "../registers/registers.h"
 using namespace std;
 class MainCPU{
 private:
-    list<LexFragment*> input;
+    list<LexFragment*> input2;
 
 public:
     void execute_cpu();

@@ -5,17 +5,17 @@
 
 void MainCPU::execute_cpu() {
    LexicalAnalysis lexer;
-   input = lexer.ExecuteAnalysis();
+   input2 = lexer.ExecuteAnalysis();
    GeneralPurposeRegisters GeneralRegs;
    LexFragment* currentFragment;
    LexFragment* instruction;
    LexFragment* register1 = nullptr;
    LexFragment* register2 = nullptr;
 
-    while (input.size()!=GeneralRegs.IP)
+    while (input2.size()!=GeneralRegs.IP)
     {
 
-        currentFragment = input.front();
+        currentFragment = input2.front();
         while(currentFragment->NextFragment!= nullptr)
         {
             if (currentFragment->FragmentLex=="INSTRUCTION") instruction = currentFragment;
