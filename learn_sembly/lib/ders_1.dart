@@ -41,7 +41,7 @@ class BirinciDersState extends State<BirinciDers> {
                       ),
                     ),
                     subtitle: Text(
-                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi commodo velit a felis feugiat, vel lobortis sapien dapibus. Sed sed placerat r vitae vel magna. Phasellus vesmassa. Sed bibendum vitae lorharetra. Cras id odio euismod, accumsan ante et, lobortis urna. Nam nec felis magna. Ut quis velit in sem bibendum suscipit a eu nuncurna. Nam nec felis magna. Ut quis velit in sem bibendum suscipit a eu nunc..",
+                      "Assembly Language(Assembly Dili) Nedir? \n Assembly dili düsük seviyeli bir programlama dilidir. Bu dili anlamak ve ögrenmek için önce bilgisayar yapısı hakkında bilginiz olması gerek. \n Buraya resim gelecek \n  Resimde görülen sistem yolu çesitli parçaları birbirine bağlar. CPU yani merkezi işlem birimi bilgisayarın kalbidir, çoğu işlem burada gerçekleşir. RAM ise programların CPU tarafından çalıştırılabilmesi için yüklendiği yerdir. \n  Neden Assembly Dili? \n Assembly dili tüm programlama dilleri arasında belkide en zor dillerden biridir fakat sunu bilmekte fayda var bugün kullanılan çoğu yüksek seviyeli dilin temelinde assembly vardır.  Assembly bir yazılımcının bilgisayara ve yazdığı koda bakış açısını değiştirir. Ve tabi ki hızından bahsetmezsek olmaz Assembly dili piyasadaki en hızlı dillerden biridir.",
                       style: TextStyle(
                         color: Colors.white,
                         fontSize: 20,
