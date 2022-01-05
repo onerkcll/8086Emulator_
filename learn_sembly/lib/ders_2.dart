@@ -31,7 +31,7 @@ class IkinciDersState extends State<IkinciDers> {
                   child: ListTile(
                     tileColor: Color(0xff0B1B81),
                     title: Text(
-                      "IKINCI DERS ICERIGI",
+                      "8086 CPU:",
                       style: TextStyle(
                         color: Colors.white,
                         fontSize: 25,
@@ -41,7 +41,7 @@ class IkinciDersState extends State<IkinciDers> {
                       ),
                     ),
                     subtitle: Text(
-                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi commodo velit a felis feugiat, vel lobortis sapien dapibus. Sed sed placerat r vitae vel magna. Phasellus vesmassa. Sed bibendum vitae lorharetra. Cras id odio euismod, accumsan ante et, lobortis urna. Nam nec felis magna. Ut quis velit in sem bibendum suscipit a eu nuncurna. Nam nec felis magna. Ut quis velit in sem bibendum suscipit a eu nunc..",
+                      "Intel tarafından 1978 yılında piyasaya çıkarılan 16 bitlik bir işlemcidir.\n Basit yapısı dolayısıyla Assembly öğrenmeye başlamak için idealdir.\nTüm dahili kayıtçılar(İngilizce: register), dahili ve harici veriyolları 16 bit uzunluğundadır. 20-bit uzunluğunda bir harici adres yolu 1 MB (bölümlenmiş) fiziksel adres alanı sağlamaktadır (220 = 1,048,576). Standart 40-pin DIP paketine sığabilmek için veri yolu ile adres yolu çoğullanmış(İngilizce: multiplexed) olarak kullanılmaktadır. 16-bit Giriş/Çıkış adres formatı 64 KB ayrılmış Giriş/Çıkış alanı anlamına gelmektedir (216 = 65,536). Dahili adres yolu uzunluğu 16 bit olduğundan maksimum doğrusal adres alanı 64 KB ile sınırlıdır. 64 KB üzerinde programlamak için bölümleme kayıtçılarını(İngilizce: segment register) kullanmak gerektiğinden oldukça kullanışsızdır (80386 ya kadar da böyle devam etmiştir).\nCihazın min ya da max modlarında işletilmesine göre harici işlemler için gerekli işaretleri taşıyan kontrol pinlerinin bazıları birden fazla işleve sahiptir. Min modu küçük, tek işlemcili sistemleri için, Max modu ise orta ölçekli ya da birden çok işlemci kullanan büyük sistemleri için kullanılmaktadır.(kaynak: https://tr.wikipedia.org/wiki/Intel_8086)",
                       style: TextStyle(
                         color: Colors.white,
                         fontSize: 20,
