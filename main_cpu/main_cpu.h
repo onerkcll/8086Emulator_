@@ -20,10 +20,20 @@ enum instruction_code{
     MOV,
     ADD,
     SUB,
+    MUL,
+    INT,
+    RET,
+    JMP
 };
+
 map<string, instruction_code> instruction_hashmap={
         {"MOV",MOV},
-        {"ADD",ADD}
+        {"ADD",ADD},
+        {"SUB",SUB},
+        {"MUL",MUL},
+        {"INT",INT},
+        {"RET",RET},
+        {"JMP",JMP}
 };
 
 
